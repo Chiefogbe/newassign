@@ -1,0 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: rgb(26, 26, 106);
+  padding: 10px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.BigContainer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+
+.AboutMeDiv, .Project, .Skill{
+  margin-bottom: 20px;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px  rgb(26, 26, 106)
+}
+
+input{
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  color: white;
+}
+
+footer{
+  text-align: center;
+  background-color: grey;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px  rgb(26, 26, 106);
+  color:whitesmoke;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@media screen and (min-width:900px) {
+  .BigContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width:850px) {
+  .AboutMeDiv,
+  .Project,
+  .Skill{
+    max-width: 650px;
+  }
+}
